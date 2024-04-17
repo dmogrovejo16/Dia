@@ -1,0 +1,35 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+
+<ion-content [fullscreen]="true" >
+  <ion-header collapse="condense" >
+    <ion-toolbar color="dark">
+      <ion-title size="large" class="txt">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+
+
+<div class="tiempo">
+<ion-card color="dark"> 
+  <img alt="Imagen" [src]="link" />
+  <ion-card-header>
+    <ion-card-title>{{tiempo}}</ion-card-title>
+    <ion-card-subtitle>{{hora}}</ion-card-subtitle>
+  </ion-card-header>
+</ion-card>
+</div>
+<div class="text">
+  <ion-label>Nivel de Luz</ion-label>
+</div>
+
+<div class="cont">
+  <div class="tapa" [style.height.%]="valor"></div>
+  <div class="termometro"> </div>
+  <div class="values">
+</div>
+</div>
+</ion-content>
